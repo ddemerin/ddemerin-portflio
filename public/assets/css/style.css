@@ -865,6 +865,17 @@ h1, h2, h3, h4, .navbar-nav>li>a, .navbar-default .navbar-brand, .skills .skill 
 /*  06.Portfolio Section 
 /*=================================*/
 
+.skill-icons {
+    font-size: 5rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    padding: 0 1rem;
+}
+
 .portfolio .sec_title span {
     line-height: 40px;
 }
