@@ -876,6 +876,12 @@ i {
     padding: 0 1rem;
 }
 
+.public-icon {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1.5rem;
+}
+
 .portfolio .sec_title span {
     line-height: 40px;
 }
