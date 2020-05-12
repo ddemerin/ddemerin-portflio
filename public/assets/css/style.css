@@ -882,6 +882,12 @@ i {
     margin-left: 1.5rem;
 }
 
+.link-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
 .portfolio .sec_title span {
     line-height: 40px;
 }
