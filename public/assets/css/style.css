@@ -287,6 +287,12 @@ h1, h2, h3, h4, .navbar-nav>li>a, .navbar-default .navbar-brand, .skills .skill 
 /*  03.Home Section
 /*=================================*/
 
+.link-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
 .navbar-default {
     z-index: 900;
     background-color: transparent;
@@ -882,12 +888,6 @@ i {
     margin-left: 1.5rem;
 }
 
-.link-icon {
-    width: 3rem;
-    height: 3rem;
-    margin-left: 1rem;
-}
-
 .portfolio .sec_title span {
     line-height: 40px;
 }
@@ -957,6 +957,12 @@ i {
 
 /*  07.Contact Section 
 /*=================================*/
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 .contact .sec_title span {
     line-height: 38px;
