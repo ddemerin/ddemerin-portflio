@@ -1,154 +1,150 @@
-
 /*===============================================
             Smart phone and tablets
 ===============================================*/
 
-@media(max-width:767px)
-{
+@media (max-width: 767px) {
+  /*-- home --*/
+  .navbar-default {
+    padding-top: 10px;
+  }
 
-    /*-- home --*/
-    .navbar-default {
-        padding-top: 10px;
-    }
+  .nav_scroll {
+    padding-top: 0;
+  }
 
-    .nav_scroll {
-        padding-top: 0;
-    }
+  .navbar-nav {
+    margin: 0;
+  }
 
-    .navbar-nav {
-        margin: 0;
-    }
+  .navbar-brand,
+  .nav_scroll .navbar-brand {
+    padding: 15px 15px;
+  }
 
-    .navbar-brand,
-    .nav_scroll .navbar-brand {
-        padding: 15px 15px;
-    }
+  .navbar-default .navbar-toggle {
+    padding: 0;
+    margin-top: 18px;
+    border: none;
+  }
 
-    .navbar-default .navbar-toggle {
-        padding: 0;
-        margin-top: 18px;
-        border: none;
-    }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border: none;
+    background-color: #000;
+  }
 
-    .navbar-default .navbar-collapse, 
-    .navbar-default .navbar-form {
-        border: none;
-        background-color: #000;
-    }
+  .nav_scroll .navbar-collapse,
+  .nav_scroll .navbar-form {
+    background-color: #fff;
+  }
 
-    .nav_scroll .navbar-collapse, 
-    .nav_scroll .navbar-form {
-        background-color: #fff;
-    }
+  .home nav.navbar ul.nav > li {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(153, 153, 153, 0.3);
+  }
 
-    .home nav.navbar ul.nav > li {
-        padding: 10px;
-        text-align: center;
-        border-top: 1px solid rgba(153, 153, 153, 0.3);
-    }
+  .navbar-default .navbar-nav a:after {
+    display: none;
+  }
 
-    .navbar-default .navbar-nav a:after {
-        display: none;
-    }
+  /*-- about --*/
+  .about .my__img {
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
 
-    /*-- about --*/
-    .about .my__img {
-        padding-right: 20px;
-        margin-bottom: 30px
-    }
+  .about .padding-left-25 {
+    padding-left: 15px;
+  }
 
-    .about .padding-left-25 {
-        padding-left: 15px;
-    }
+  /*-- services --*/
+  .services .item {
+    margin-bottom: 30px;
+  }
 
-    /*-- services --*/
-    .services .item {
-        margin-bottom: 30px;
-    }
+  /*-- contact --*/
+  .contact .info {
+    margin-top: 50px;
+  }
 
-    /*-- contact --*/
-    .contact .info {
-        margin-top: 50px;
-    }
+  .contact .content div {
+    text-align: center;
+  }
 
-    .contact .content div {
-        text-align: center;
-    }
+  input.form-control {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
 
-    input.form-control {
-        width: 100%;
-        float: none;
-        margin-right: 0;
-    }
-
-    .contact .padding-left-25 {
-        padding-left: 15px;
-    }
-
+  .contact .padding-left-25 {
+    padding-left: 15px;
+  }
 }
 
-@media(max-width:500px)
-{
+@media (max-width: 500px) {
+  .skill-icons {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-bottom: 3rem;
+  }
 
-    .sec_title h2 {
-        font-size: 35px;
-    }
+  .under-skills {
+    margin-top: 10rem;
+  }
 
-    .portfolio .sec_title span {
-        line-height: 37px;
-    }
+  .animated_scroll {
+    visibility: visible;
+  }
 
+  .sec_title h2 {
+    font-size: 35px;
+  }
+
+  .portfolio .sec_title span {
+    line-height: 37px;
+  }
 }
-
 
 /*===============================================
             Small screen
 ===============================================*/
 
-@media(min-width:768px) and (max-width:991px)
-{
+@media (min-width: 768px) and (max-width: 991px) {
+  /*-- about --*/
+  .about .my__img {
+    margin-bottom: 30px;
+  }
 
-    /*-- about --*/
-    .about .my__img {
-        margin-bottom: 30px
-    }
+  .about .padding-left-35 {
+    padding-left: 15px;
+  }
 
-    .about .padding-left-35 {
-        padding-left: 15px;
-    }
+  /*-- services --*/
+  .services .item:first-of-type,
+  .services .item:nth-of-type(2) {
+    margin-bottom: 30px;
+  }
 
-    /*-- services --*/
-    .services .item:first-of-type,
-    .services .item:nth-of-type(2) {
-        margin-bottom: 30px;
-    }
-
-    .contact .padding-left-25 {
-        padding-left: 15px;
-    }
-
+  .contact .padding-left-25 {
+    padding-left: 15px;
+  }
 }
-
 
 /*===============================================
             Medium screen
 ===============================================*/
 
-@media(min-width:992px) and (max-width:1199px)
-{
-
+@media (min-width: 992px) and (max-width: 1199px) {
 }
-
 
 /*===============================================
             Large screen
 ===============================================*/
 
-@media(min-width:1200px)
-{
-
-    .about h3 {
-        margin-top: 30px;
-    }
-
+@media (min-width: 1200px) {
+  .about h3 {
+    margin-top: 30px;
+  }
 }
