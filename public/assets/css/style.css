@@ -46,9 +46,7 @@ img {
   vertical-align: top;
 }
 
-a,
-a:hover,
-a:focus {
+a, a:hover, a:focus {
   text-decoration: none;
   outline: none;
   color: inherit;
@@ -82,12 +80,7 @@ p {
   font-size: 16px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
@@ -174,15 +167,7 @@ section {
   visibility: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-.navbar-nav > li > a,
-.navbar-default .navbar-brand,
-.skills .skill span,
-.portfolio ul li,
-.testimonials .name-job .name {
+h1, h2, h3, h4, .navbar-nav>li>a, .navbar-default .navbar-brand, .skills .skill span, .portfolio ul li, .testimonials .name-job .name {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -321,19 +306,17 @@ h4,
   font-weight: 700;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #fff;
 }
 
-.navbar-nav > li,
-.navbar-brand {
+.navbar-nav>li, .navbar-brand {
   padding: 30px 15px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   padding: 0;
   font-size: 12px;
   font-weight: 400;
@@ -353,29 +336,19 @@ h4,
   opacity: 0;
   -webkit-transform: translateY(7px);
   transform: translateY(7px);
-  transition: -webkit-transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53),
-    opacity 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-  transition: transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53),
-    opacity 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: -webkit-transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53), opacity 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: transform 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53), opacity 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
 
-.navbar-default .navbar-nav > li > a:hover:after,
-.navbar-default .navbar-nav > li > a:focus:after,
-.navbar-default .navbar-nav > li.active > a:after {
+.navbar-default .navbar-nav>li>a:hover:after, .navbar-default .navbar-nav>li>a:focus:after, .navbar-default .navbar-nav>li.active>a:after {
   opacity: 1;
   -webkit-transform: none;
   transform: none;
-  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-    opacity 0s linear;
-  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-    opacity 0s linear;
+  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s linear;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0s linear;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #fff;
   background-color: transparent;
 }
@@ -385,8 +358,7 @@ h4,
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.nav_scroll .navbar-nav > li,
-.nav_scroll .navbar-brand {
+.nav_scroll .navbar-nav>li, .nav_scroll .navbar-brand {
   padding: 20px 15px;
 }
 
@@ -394,17 +366,11 @@ h4,
   color: #333;
 }
 
-.nav_scroll .navbar-brand:hover,
-.nav_scroll .navbar-brand:focus {
+.nav_scroll .navbar-brand:hover, .nav_scroll .navbar-brand:focus {
   color: #333;
 }
 
-.nav_scroll .navbar-nav > li > a,
-.nav_scroll .navbar-nav > li > a:hover,
-.nav_scroll .navbar-nav > li > a:focus,
-.nav_scroll .navbar-nav > .active > a,
-.nav_scroll .navbar-nav > .active > a:hover,
-.nav_scroll .navbar-nav > .active > a:focus {
+.nav_scroll .navbar-nav>li>a, .nav_scroll .navbar-nav>li>a:hover, .nav_scroll .navbar-nav>li>a:focus, .nav_scroll .navbar-nav>.active>a, .nav_scroll .navbar-nav>.active>a:hover, .nav_scroll .navbar-nav>.active>a:focus {
   color: #333;
 }
 
@@ -412,8 +378,7 @@ h4,
   background: rgba(0, 0, 0, 0.85);
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
 
@@ -465,7 +430,6 @@ h4,
 
 .home h1 {
   color: #fff;
-  font-size: 95px;
   font-weight: 900;
   margin-top: 10px;
   margin-bottom: 35px;
@@ -503,8 +467,7 @@ h4,
   perspective: 300px;
 }
 
-.cd-headline.rotate-2 i,
-.cd-headline.rotate-2 em {
+.cd-headline.rotate-2 i, .cd-headline.rotate-2 em {
   display: inline-block;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -678,8 +641,7 @@ h4,
   height: 100%;
 }
 
-.go_down span:after,
-.go_down span:before {
+.go_down span:after, .go_down span:before {
   content: '';
   position: absolute;
   left: 12px;
@@ -703,8 +665,7 @@ h4,
   transition: all 0.3s ease-in-out;
 }
 
-.go_down span:last-of-type::after,
-.go_down span:last-of-type::before {
+.go_down span:last-of-type::after, .go_down span:last-of-type::before {
   width: 10px;
 }
 
@@ -946,8 +907,7 @@ i {
   transition: all 0.2s ease-in-out 0.2s;
 }
 
-.portfolio ul li.active_filter,
-.portfolio ul li:hover {
+.portfolio ul li.active_filter, .portfolio ul li:hover {
   color: #000;
 }
 
@@ -1068,20 +1028,13 @@ input.form-control:last-of-type {
   transition: all ease-in-out 0.2s;
 }
 
-.contact form .btn:active,
-.contact form .btn:focus,
-.contact form .btn:hover {
+.contact form .btn:active, .contact form .btn:focus, .contact form .btn:hover {
   color: #000;
   background-color: transparent;
   border-color: #111;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
+.btn:focus, .btn:active, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
   outline: none;
 }
 
@@ -1093,8 +1046,7 @@ input.form-control:last-of-type {
   padding-left: 25px;
 }
 
-.msg_success,
-.msg_error {
+.msg_success, .msg_error {
   display: none;
   font-size: 12px;
   padding-top: 15px;
